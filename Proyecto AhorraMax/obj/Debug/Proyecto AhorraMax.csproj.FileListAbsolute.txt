@@ -87,3 +87,38 @@ C:\Users\Heidy\Downloads\Proyecto AhorraMax\Proyecto AhorraMax\Proyecto AhorraMa
 C:\Users\Heidy\Downloads\Proyecto AhorraMax\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Proveedores.resources
 C:\Users\Heidy\Downloads\Proyecto AhorraMax\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Reportes.resources
 C:\Users\Heidy\Downloads\Proyecto AhorraMax\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Productos.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.exe.config
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.exe
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.pdb
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csprojAssemblyReference.cache
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Menu.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Proveedores.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Reportes.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Productos.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form24.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form25.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form26.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form27.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form28.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form29.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form30.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form31.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form32.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form33.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form34.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form35.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form36.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form37.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form38.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form39.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form40.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form41.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form42.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form43.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form44.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form45.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Properties.Resources.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csproj.GenerateResource.cache
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csproj.CoreCompileInputs.cache
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.exe
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.pdb
