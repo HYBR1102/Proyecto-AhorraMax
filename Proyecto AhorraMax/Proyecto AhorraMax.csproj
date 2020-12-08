@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2F4AD47-07D4-4BA8-99B5-4D0DB4482A28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_AhorraMax</RootNamespace>
+    <AssemblyName>Proyecto AhorraMax</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form24.Designer.cs">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form26.Designer.cs">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form27.Designer.cs">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form28.Designer.cs">
+      <DependentUpon>Form28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form29.Designer.cs">
+      <DependentUpon>Form29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form30.Designer.cs">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form31.Designer.cs">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form32.Designer.cs">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form33.Designer.cs">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form34.Designer.cs">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form35.Designer.cs">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form36.Designer.cs">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form37.Designer.cs">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form38.Designer.cs">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form39.Designer.cs">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form40.Designer.cs">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form41.Designer.cs">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form42.Designer.cs">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form43.Designer.cs">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form44.Designer.cs">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form45.Designer.cs">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form24.resx">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form25.resx">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form26.resx">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form27.resx">
+      <DependentUpon>Form27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form28.resx">
+      <DependentUpon>Form28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form29.resx">
+      <DependentUpon>Form29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form30.resx">
+      <DependentUpon>Form30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form31.resx">
+      <DependentUpon>Form31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form32.resx">
+      <DependentUpon>Form32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form33.resx">
+      <DependentUpon>Form33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form34.resx">
+      <DependentUpon>Form34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form35.resx">
+      <DependentUpon>Form35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form36.resx">
+      <DependentUpon>Form36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form37.resx">
+      <DependentUpon>Form37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form38.resx">
+      <DependentUpon>Form38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form39.resx">
+      <DependentUpon>Form39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form40.resx">
+      <DependentUpon>Form40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form41.resx">
+      <DependentUpon>Form41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form42.resx">
+      <DependentUpon>Form42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form43.resx">
+      <DependentUpon>Form43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form44.resx">
+      <DependentUpon>Form44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form45.resx">
+      <DependentUpon>Form45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
