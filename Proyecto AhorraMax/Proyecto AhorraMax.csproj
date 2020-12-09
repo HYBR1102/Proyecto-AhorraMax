@@ -53,22 +53,22 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\Proveedores.cs">
+    <Compile Include="Opciones\frmProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\Proveedores.Designer.cs">
-      <DependentUpon>Proveedores.cs</DependentUpon>
+    <Compile Include="Opciones\frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\Reportes.cs">
+    <Compile Include="Opciones\Reportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\Reportes.Designer.cs">
+    <Compile Include="Opciones\Reportes.Designer.cs">
       <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\frmProductos.cs">
+    <Compile Include="Opciones\frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\frmProductos.Designer.cs">
+    <Compile Include="Opciones\frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes\Form24.cs">
@@ -208,13 +208,13 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\Proveedores.resx">
-      <DependentUpon>Proveedores.cs</DependentUpon>
+    <EmbeddedResource Include="Opciones\frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\Reportes.resx">
+    <EmbeddedResource Include="Opciones\Reportes.resx">
       <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\frmProductos.resx">
+    <EmbeddedResource Include="Opciones\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Form24.resx">

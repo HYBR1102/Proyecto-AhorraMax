@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_AhorraMax
 {
-    partial class Productos
+    partial class frmProductos
     {
         /// <summary>
         /// Required designer variable.
@@ -302,9 +302,9 @@
             this.grpProductos.Size = new System.Drawing.Size(550, 426);
             this.grpProductos.TabIndex = 18;
             this.grpProductos.TabStop = false;
-            this.grpProductos.Text = "Productos";
+            this.grpProductos.Text = "frmProductos";
             // 
-            // Productos
+            // frmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -312,8 +312,8 @@
             this.Controls.Add(this.grpProductos);
             this.Controls.Add(this.grpAcciones);
             this.Controls.Add(this.grpProducto);
-            this.Name = "Productos";
-            this.Text = "Productos";
+            this.Name = "frmProductos";
+            this.Text = "frmProductos";
             this.grpProducto.ResumeLayout(false);
             this.grpProducto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductos)).EndInit();

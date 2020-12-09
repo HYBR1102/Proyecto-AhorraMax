@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_AhorraMax.Menu;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,14 +20,14 @@ namespace Proyecto_AhorraMax
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form Productos = new Productos();
-            Productos.Show();
+            Form frmProductos = new frmProductos();
+            frmProductos.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form Proveedores = new Proveedores();
-            Proveedores.Show();
+            Form frmProveedores = new frmProveedores();
+            frmProveedores.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

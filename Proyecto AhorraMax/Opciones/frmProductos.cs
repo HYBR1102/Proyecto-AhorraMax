@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_AhorraMax
 {
-    public partial class Productos : Form
+    public partial class frmProductos : Form
     {
-        public Productos()
+        public frmProductos()
         {
             InitializeComponent();
             grpProducto.Enabled = false;
@@ -21,7 +21,7 @@ namespace Proyecto_AhorraMax
             string tabla = cboDepartamento.Text;
 
             conexion.conectar();
-            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}");
+            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
             conexion.cerrar();
         }
 
@@ -29,7 +29,7 @@ namespace Proyecto_AhorraMax
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            if(grpProducto.Enabled == false)
+            if (grpProducto.Enabled == false)
             {
                 grpProducto.Enabled = true;
                 txtNombre.Enabled = false;
@@ -45,11 +45,11 @@ namespace Proyecto_AhorraMax
                 string codigo = txtCodigo.Text;
 
                 conexion.conectar();
-                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla} WHERE Código = \"{codigo}\"");
+                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla} WHERE Código = \"{codigo}\"").Tables[0];
                 conexion.cerrar();
 
                 //Limpieza
-                cboDepartamento.SelectedIndex = 0;
+                //cboDepartamento.SelectedIndex = 0;
                 txtCodigo.Clear();
                 txtNombre.Enabled = true;
                 txtPrecioDeVenta.Enabled = true;
@@ -59,7 +59,6 @@ namespace Proyecto_AhorraMax
                 txtStock.Enabled = true;
                 grpProducto.Enabled = false;
             }
-            
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)
@@ -83,11 +82,11 @@ namespace Proyecto_AhorraMax
                 conexion.ejecutarInstruccion($"INSERT INTO {tabla} " +
                     $"(Código, Nombre, [Precio de venta], [Precio de compra], Proveedor, Stock, Cantidad) " +
                     $"VALUES ('{codigo}', '{nombre}', {precioDeVenta}, {precioDeCompra}, '{proveedor}', {stock}, {cantidad})");
-                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}");
+                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
                 conexion.cerrar();
 
                 //Limpieza
-                cboDepartamento.SelectedIndex = 0;
+                //cboDepartamento.SelectedIndex = 0;
                 txtCodigo.Clear();
                 txtNombre.Clear();
                 txtPrecioDeVenta.Clear();
@@ -114,7 +113,7 @@ namespace Proyecto_AhorraMax
             string tabla = cboDepartamento.Text;
 
             conexion.conectar();
-            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}");
+            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
             conexion.cerrar();
         }
     }

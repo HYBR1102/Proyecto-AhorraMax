@@ -122,3 +122,5 @@ C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csp
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csproj.CoreCompileInputs.cache
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.exe
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.pdb
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Menu.frmProveedores.resources
+C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.frmProductos.resources
