@@ -21,7 +21,7 @@ namespace Proyecto_AhorraMax
             string tabla = cboDepartamento.Text;
 
             conexion.conectar();
-            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
+            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM [{tabla}]").Tables[0];
             conexion.cerrar();
         }
 
@@ -45,7 +45,7 @@ namespace Proyecto_AhorraMax
                 string codigo = txtCodigo.Text;
 
                 conexion.conectar();
-                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla} WHERE Código = \"{codigo}\"").Tables[0];
+                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM [{tabla}] WHERE Código = \"{codigo}\"").Tables[0];
                 conexion.cerrar();
 
                 //Limpieza
@@ -79,10 +79,10 @@ namespace Proyecto_AhorraMax
                 int stock = int.Parse(txtStock.Text);
 
                 conexion.conectar();
-                conexion.ejecutarInstruccion($"INSERT INTO {tabla} " +
+                conexion.ejecutarInstruccion($"INSERT INTO [{tabla}] " +
                     $"(Código, Nombre, [Precio de venta], [Precio de compra], Proveedor, Stock, Cantidad) " +
                     $"VALUES ('{codigo}', '{nombre}', {precioDeVenta}, {precioDeCompra}, '{proveedor}', {stock}, {cantidad})");
-                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
+                dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM [{tabla}]").Tables[0];
                 conexion.cerrar();
 
                 //Limpieza
@@ -113,7 +113,7 @@ namespace Proyecto_AhorraMax
             string tabla = cboDepartamento.Text;
 
             conexion.conectar();
-            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM {tabla}").Tables[0];
+            dtgProductos.DataSource = conexion.ejecutarQuery($"SELECT * FROM [{tabla}]").Tables[0];
             conexion.cerrar();
         }
     }

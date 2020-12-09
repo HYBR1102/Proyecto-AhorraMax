@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_AhorraMax
 {
-    public partial class Menu : Form
+    public partial class frmMenu : Form
     {
-        public Menu()
+        public frmMenu()
         {
             InitializeComponent();
         }

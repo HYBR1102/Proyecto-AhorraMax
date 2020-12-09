@@ -1,7 +1,7 @@
 ﻿
 namespace Proyecto_AhorraMax
 {
-    partial class Menu
+    partial class frmMenu
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -41,7 +41,7 @@ namespace Proyecto_AhorraMax
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 50);
             this.button1.TabIndex = 0;
-            this.button1.Text = "frmProductos";
+            this.button1.Text = "Productos";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -65,7 +65,7 @@ namespace Proyecto_AhorraMax
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,7 +73,7 @@ namespace Proyecto_AhorraMax
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "frmMenu";
             this.Text = "Menú AhorraMax";
             this.ResumeLayout(false);
 

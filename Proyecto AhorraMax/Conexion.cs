@@ -15,7 +15,7 @@ namespace Proyecto_AhorraMax
         public Conexion()
         {
             //Cadena de conexión: Cambia dependiendo el equipo en donde se ejecute.
-            string cadenaDeConexion = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Heidy\\OneDrive\\Escritorio\\DEXTER\\Supermercado-AhorraMaxfull3.1.accdb";
+            string cadenaDeConexion = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\wlapt\\Desktop\\Supermercado-AhorraMaxfull3.1.accdb";
             this.conexion = new OleDbConnection(cadenaDeConexion);
         }
 

@@ -124,3 +124,38 @@ C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.exe
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.pdb
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Menu.frmProveedores.resources
 C:\GitHub\Proyecto AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.frmProductos.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csprojAssemblyReference.cache
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Menu.frmProveedores.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Reportes.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.frmProductos.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form24.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form25.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form26.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form27.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form28.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form29.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form30.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form31.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form32.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form33.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form34.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form35.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form36.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form37.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form38.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form39.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form40.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form41.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form42.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form43.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form44.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Form45.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.Properties.Resources.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csproj.GenerateResource.cache
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.csproj.CoreCompileInputs.cache
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.exe
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto AhorraMax.pdb
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\obj\Debug\Proyecto_AhorraMax.frmMenu.resources
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.exe.config
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.exe
+C:\Users\wlapt\Documents\GitHub\Proyecto-AhorraMax\Proyecto AhorraMax\bin\Debug\Proyecto AhorraMax.pdb
